@@ -2,14 +2,11 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-}
+	int a;
+	char str[]="_putchar";
 
+	for(a=0;str[a] !='0';a++)
+		_putchar(str[a]);
+	_putchar('\n');
+	return (0);
+}
