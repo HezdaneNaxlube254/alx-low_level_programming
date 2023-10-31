@@ -1,8 +1,11 @@
-#include <stdio.h>
+/*AUTHOR@NASHKAY
+ *ABOUT--aprogramtoprinttheprogramsname
+ *date10/31/2023
+ */
+#include<stdio.h>
 
-int  main(int argc, char *argv[])
-{
-	printf("%s",	argv[0]);
-	printf("%d",	argc);
-	return 0;
-}
+int main(int argc ,char *argv[])
+		{
+		printf("%s\n%d\n",argv[0],argc);
+		return 0;
+		}
