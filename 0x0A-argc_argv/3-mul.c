@@ -4,17 +4,15 @@
  * If the program does not receive two arguments, your program should print Error
  * return 1
  */
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main(int argc, char *argv[])
 {
-	int multy;
-        if (argc != 2)
-        {
+	if (argc != 3)
+	{
 		printf("Error\n");
-                return 1;
+		return (1);
 	}
-        multy=atoi(argv[1])*atoi(argv[2]);
-		printf("%d\n",multy);
-		return 0;
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
